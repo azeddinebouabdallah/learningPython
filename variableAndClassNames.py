@@ -1,0 +1,6 @@
+variable = 10
+NameForClass
+_privateVariable
+__superPrivateVariable
+languageDefineSpecialName__
+
