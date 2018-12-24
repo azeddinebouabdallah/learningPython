@@ -1,14 +1,14 @@
 def functionName(params, defaultArg = 10): 
-	print params
-	print defaultArg
+	print (params)
+	print (defaultArg)
 	return 0
 
 
-print functionName("Didou")
+print (functionName("Didou"))
 # Anonymous function
 sum = lambda arg1, arg2 : arg1 + arg2
 
-print sum(10,10)
+print (sum(10,10))
 
 # Nested functions arguments
 def f(a):

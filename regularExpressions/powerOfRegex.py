@@ -37,9 +37,11 @@ all_matches('This is 1-st example', r"\S+") # no spaces
 """
 $ end of string
 ^ beginning of string
+\A the word of the beginning of string
+\Z the word at the end of the string
 """
 all_matches('Relative positioning in regular expression', r'^\w+') # first word
-all_matches('Relative positioning in regular expression', r'\w+$') # first word
+all_matches('Relative positioning in regular expression', r'\w+$') # last word
 
 
 # non greedy

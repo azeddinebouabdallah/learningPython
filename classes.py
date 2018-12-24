@@ -7,6 +7,7 @@ class Employee(object): # object father class of all classes, allow us to overri
 	#Private variable
 	__code = 10 # Use setters and getters
 
+ 
 	#Constructor	
 	def __init__(self, name, salary = 0): 
 		# Control data type 
@@ -68,4 +69,20 @@ try:
 	print(emp1.countDisplay)
 except Exception as e:
 	print (e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
